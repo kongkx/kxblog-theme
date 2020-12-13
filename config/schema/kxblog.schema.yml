@@ -1,0 +1,5 @@
+# Schema for the configuration files of the kxblog theme.
+
+kxblog.settings:
+  type: theme_settings
+  label: 'kxblog settings'

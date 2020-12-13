@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Template for a Node component.
+ */
+#}
+{%
+  set classes = [
+  'node',
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+  node.bundle|clean_class,
+  node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
+]
+%}
+<article{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+    {% if label and not page %}
+    <h1{{ title_attributes.addClass('node__title') }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h1>
+    {% endif %}
+  {{ title_suffix }}
+
+  {% block content %}
+    {{ content | without('links', 'field_tags') }}
+  {% endblock %}
+  <div class="node__footer d-md-flex align-items-center justify-content-between">
+      <div class="node__tags">
+          {{ content.field_tags }}
+      </div>
+      <div class="node__links">
+        {{  content.links }}
+      </div>
+  </div>
+</article>

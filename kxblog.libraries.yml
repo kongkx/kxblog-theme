@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/kxblog.style.css: {}
+  js:
+    assets/js/kxblog.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
