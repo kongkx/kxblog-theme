@@ -1,0 +1,43 @@
+.block--beianhao {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .page__footer {
+    .block--kxblog-powered,
+    .block--beianhao {
+      margin-bottom: 16px;
+    }
+    .nav {
+      margin-left: -1rem;
+    }
+  }
+}
+
+.block--dashangma {
+  margin-top: 4rem;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+
+  border-top: 1px solid $border-color;
+  .basic__body {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .qrcodes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}

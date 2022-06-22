@@ -10,8 +10,16 @@ pre code {
 }
 
 pre {
-  background: $gray-800;
-  color: $white;
+  background: $gray-100;
+  // color: $white;
   padding: 1em;
   border-radius: 6px;
+}
+
+.views-row {
+  article {
+    .node__title {
+      font-weight: 300;
+    }
+  }
 }

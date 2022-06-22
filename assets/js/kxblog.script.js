@@ -18121,8 +18121,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/kongkx/Projects/blog/web/themes/custom/kxblog/src/js/kxblog.script.js */"./src/js/kxblog.script.js");
-module.exports = __webpack_require__(/*! /Users/kongkx/Projects/blog/web/themes/custom/kxblog/src/sass/kxblog.style.scss */"./src/sass/kxblog.style.scss");
+__webpack_require__(/*! /Users/kongkx/Projects/php-dev/blog/web/themes/custom/kxblog/src/js/kxblog.script.js */"./src/js/kxblog.script.js");
+module.exports = __webpack_require__(/*! /Users/kongkx/Projects/php-dev/blog/web/themes/custom/kxblog/src/sass/kxblog.style.scss */"./src/sass/kxblog.style.scss");
 
 
 /***/ })
