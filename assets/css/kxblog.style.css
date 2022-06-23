@@ -9645,6 +9645,8 @@ pre {
 .block--dashangma .qrcodes img {
   margin-left: 1rem;
   margin-right: 1rem;
+  max-width: 220px;
+  height: auto;
 }
 
 .node__title a {
