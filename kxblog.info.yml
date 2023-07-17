@@ -27,10 +27,9 @@ libraries-override:
 ckeditor_stylesheets:
   - assets/css/kxblog.style.css
 
-component-libraries:
-  kxblog:
-    paths:
-      - ./src/components
+components:
+  namespaces:
+    kxblog: src/components
 
 # Information added by Drupal.org packaging script on 2020-09-30
 version: '8.x-4.10'
